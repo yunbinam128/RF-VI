@@ -1,6 +1,8 @@
 prop.methods <- c('pAC','pAUC','pAUC+US','pAUC+OS','pAUC+ST')
 ref.methods <- c('SPEC','Relief','LS','EN')
 
+
+
 # 1. Variable selection
 exp <- c('proposed','ref')[2]
 if(exp=='proposed'){
