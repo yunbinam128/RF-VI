@@ -1,4 +1,4 @@
-# 0. Investigating simulation parameters
+# 1. Investigating simulation parameters
 N <- c(50, 100, 250, 500)
 IR <- c(1, 2, 10, 20)
 methods <- c("pAC", "pAUC", "pAUC+US", "pAUC+OS", "pAUC+ST")
@@ -20,7 +20,7 @@ simul.mat
 
 
 
-# Measuring variable importance
+# 2. Measuring variable importance
 for(i in 1:nrow(simul.mat)){ 
   print(i)
   n <- simul.mat[i,'n']
