@@ -24,15 +24,13 @@ Step 1) Investgating simulation data
 
 Step 2) Measuring variable importance
 
-## experiments.R
-This file contains codes for illustrative example in Section 4.
+## real_exp.R
+This file contains codes for experimental studies in Section 4.
 
-Step 0) Importing RV144 dataset
-- While the RV144 dataset cannot be shared because they are proprietary to the US Military HIV Research Program, interested researchers may request access to anonymized patient-level data at PubRequest@hivresearch.org.
+Step 0) Importing helper function
+- Import "helper_vim.R" file.
 
-Step 1) Experiments
-- Codes in "1. Variable importance for vwRF" calculate variable weights for vwRF.
-- Codes in "2-1. Prediction for RF and vwRF-based methods" compute prediction performance of RF and vwRF-based methods.
-- Codes in "2-2. Prediction for LASSO, ElasticNet, AUCRF" compute prediction performance of RF-LS, RF-EN, and RF-AUCRF.
+Step 1) Performing faeture selection by the proposed algorithm and reference methods
 
+Step 2) Calculating CV-AUC of RF fitted with selected features by methods
 
