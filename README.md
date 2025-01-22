@@ -1,4 +1,4 @@
-# RF-VI
+# RF-VI: Random Forest Variable Importance-based Selection Algorithm in Class Imbalance Problem
 This document instructs R codes for the manuscript "Random Forest Variable Importance-based Selection Algorithm in Class Imbalance Problem". Source codes are split into three R files "helper_vim.R", "simul_exp.R", and "real_exp.R".
 
 ## helper_vim.R
@@ -6,7 +6,7 @@ This file contains several helper functions.
 
 ### Function list
 - *sim.imbalanced*: generates simulated dataset for Section 2.
-- *get.oob.pred*: calculcate out-of-bag sample-based prediction in RF.
+- *get.oob.pred*: calculcates out-of-bag sample-based prediction in RF.
 - *get.vim*: provides RF permutation variable importance.
 - *get.kfold.splits*: provides k-fold cross-validation datasets.
 - *proposed.method*: performs the proposed feature selection algorithm.
@@ -30,7 +30,7 @@ This file contains codes for experimental studies in Section 4.
 Step 0) Importing helper function
 - Import "helper_vim.R" file.
 
-Step 1) Performing faeture selection by the proposed algorithm and reference methods
+Step 1) Performing feature selection by the proposed algorithm and reference methods
 
 Step 2) Calculating CV-AUC of RF fitted with selected features by methods
 
